@@ -2,9 +2,7 @@
 
 This repository implements a small-object detection pipeline for two classes: `drone` and `bird`. The project is designed around a hard size constraint: every object is limited to at most 2.5% of the longer image side. This makes the task fundamentally different from standard detection benchmarks, where objects are usually large enough to survive resizing.
 
-![example](example_image_birds.png)
-
-[▶ example_video_birds.MP4](example_video_birds.MP4) — detector output on a 4K bird clip.
+<img width="3022" height="1706" alt="image" src="https://github.com/user-attachments/assets/dc93e686-3952-45b5-95e3-08d49114cd76" />
 
 ## Why this project exists
 
