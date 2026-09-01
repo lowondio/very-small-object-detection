@@ -1,4 +1,4 @@
-# Very Small Flying Object Detection
+# Very Small Object Detection
 
 This repository implements a small-object detection pipeline for two classes: `drone` and `bird`. The project is designed around a hard size constraint: every object is limited to at most 2.5% of the longer image side. This makes the task fundamentally different from standard detection benchmarks, where objects are usually large enough to survive resizing.
 
