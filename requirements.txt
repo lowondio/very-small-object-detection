@@ -1,0 +1,20 @@
+# detection/metrics.py needs only these three. It is standalone on purpose:
+# you can copy that one file into Colab and score predictions with no model.
+numpy
+pandas
+matplotlib
+
+# Rest of the detection package
+pyyaml
+tqdm
+requests
+pillow
+gdown            # dataset download from Google Drive
+
+# YOLO detector (pulls torch/torchvision)
+ultralytics
+
+# D-FINE is cloned at runtime by detection.detectors.DFineDetector.setup(),
+# which installs the requirements.txt of its own repository.
+
+# dataset_preparation/ additionally needs opencv-python-headless
