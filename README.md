@@ -43,8 +43,8 @@ The repository therefore treats the task as a research pipeline rather than a si
 ├── run_metrics_colab.py     metrics-only evaluation helper for Colab
 ├── example_image_birds.png
 ├── example_video_birds.MP4
-├── README.md
-└── LICENSE                  (if present in your checkout)
+└── README.md
+
 ```
 
 ## Main components
